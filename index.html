@@ -217,6 +217,54 @@ body{background:var(--bg);min-height:100vh}
 .footer-links a:hover{color:var(--o)}
 .footer-copy{font-size:11px;color:var(--txt3);width:100%}
 
+/* ── Our Work showcase (ported from the website Our Work page) ── */
+.work-intro{font-size:14px;color:var(--txt2);line-height:1.8;margin-bottom:1.5rem}
+.cs-video-embed{margin-top:1.25rem;position:relative;width:100%;aspect-ratio:16/9;background:#0F0E0D;border:1px solid rgba(255,255,255,0.08);border-radius:8px;overflow:hidden}
+.cs-video-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;display:block}
+.tv-intro-quote{font-family:'EB Garamond',Georgia,serif;font-style:italic;font-size:16px;color:var(--txt);line-height:1.7;border-left:3px solid var(--o);padding:0.5rem 0 0.5rem 1rem;margin:0 0 1.5rem 0}
+.tv-network-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:1.5rem}
+.tv-network{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.4rem 0.75rem 1.1rem;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.65rem;min-height:104px}
+.tv-network-logo{height:38px;width:auto;max-width:88%;object-fit:contain;display:block}
+.tv-network-logo.bbc{height:34px}
+.tv-network-logo.nbc{height:22px;max-width:92%}
+.tv-network-logo.discovery{height:30px}
+.tv-network-sub{font-family:'Oswald',sans-serif;font-weight:400;font-size:9px;letter-spacing:0.16em;text-transform:uppercase;color:var(--txt3);line-height:1.2}
+.tv-feature-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0.85rem;margin-bottom:1.5rem}
+.tv-feature{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1rem 1rem 1.1rem;display:flex;flex-direction:column}
+.tv-feature-show{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:0.04em;line-height:1.05;color:var(--txt);margin-bottom:0.25rem}
+.tv-feature-sub{font-family:'Oswald',sans-serif;font-weight:400;font-size:10.5px;letter-spacing:0.05em;color:var(--txt2);margin-bottom:0.85rem;line-height:1.3}
+.tv-feature-video{position:relative;width:100%;aspect-ratio:3/2;background:var(--txt);border-radius:6px;overflow:hidden}
+.tv-feature-video iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;display:block}
+.tv-feature-role{margin-top:0.85rem;padding-top:0.65rem;border-top:1px solid var(--border);font-family:'Oswald',sans-serif;font-weight:600;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--txt2)}
+.tv-credits-box{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:1.4rem 1.5rem 1.5rem}
+.tv-credits-eyebrow{font-family:'Oswald',sans-serif;font-weight:600;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--o);margin-bottom:1rem}
+.tv-credit-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding:0.85rem 0;border-top:1px solid var(--border)}
+.tv-credit-row:first-of-type{border-top:none;padding-top:0.4rem}
+.tv-credit-main{flex:1;min-width:200px}
+.tv-credit-title{font-family:'Oswald',sans-serif;font-weight:600;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:var(--txt);line-height:1.2}
+.tv-credit-role{font-family:'Oswald',sans-serif;font-weight:400;font-size:11.5px;letter-spacing:0.03em;color:var(--txt2);margin-top:3px}
+.tv-credit-accolade{font-family:'Oswald',sans-serif;font-weight:600;font-size:9.5px;letter-spacing:0.12em;text-transform:uppercase;color:var(--o);background:var(--o-dim);border:1px solid var(--o-border);padding:4px 9px;border-radius:4px;white-space:nowrap;line-height:1.3}
+.tv-credits-imdb{margin-top:1.1rem;padding-top:1rem;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;font-family:'Oswald',sans-serif;font-weight:500;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--txt2);transition:color 0.15s ease}
+.tv-credits-imdb:hover{color:var(--txt)}
+.tv-credits-imdb img{height:18px;width:auto;display:block;border-radius:2px}
+.tv-credits-imdb-arrow{color:var(--o);font-weight:600}
+.proj-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.5rem 1.5rem 1.75rem;margin-bottom:1rem}
+.proj-header{display:flex;align-items:center;gap:14px;padding-bottom:1rem;border-bottom:1px solid var(--border);margin-bottom:1.1rem}
+.proj-logo-wrap{flex-shrink:0;width:84px;height:60px;background:var(--surface2);border:1px solid var(--border);border-radius:6px;display:flex;align-items:center;justify-content:center;padding:6px}
+.proj-logo{max-width:100%;max-height:100%;object-fit:contain;display:block}
+.proj-logo-fallback{font-family:'Oswald',sans-serif;font-weight:600;font-size:11px;letter-spacing:0.04em;color:var(--txt2);text-align:center;line-height:1.2}
+.proj-meta{flex:1;min-width:0}
+.proj-label{font-family:'Oswald',sans-serif;font-weight:500;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--o);margin-bottom:3px}
+.proj-name{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:0.03em;line-height:1;color:var(--txt)}
+.proj-desc{font-size:13.5px;color:var(--txt2);line-height:1.75;padding:0 0 0.25rem 0}
+.proj-video-embed{margin-top:1.1rem;position:relative;width:100%;aspect-ratio:16/9;background:var(--txt);border-radius:8px;overflow:hidden}
+.proj-video-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;display:block}
+@media(max-width:560px){
+  .tv-network-strip{grid-template-columns:1fr}
+  .tv-feature-grid{grid-template-columns:1fr}
+  .proj-header{flex-direction:column;align-items:flex-start;gap:10px}
+}
+
 @media print{
   body{background:#fff}
   .topbar-cta,.cta-primary{display:none}
@@ -322,7 +370,17 @@ body{background:var(--bg);min-height:100vh}
       <a class="wi-card" href="#sec-films">
         <div class="wi-num">04</div>
         <div class="wi-title">Past Talex Films</div>
-        <div class="wi-desc">Three projects across three industries</div>
+        <div class="wi-desc">Three case studies, with the films</div>
+      </a>
+      <a class="wi-card" href="#sec-tv">
+        <div class="wi-num">05</div>
+        <div class="wi-title">A Career In Broadcast</div>
+        <div class="wi-desc">Tom's television track record</div>
+      </a>
+      <a class="wi-card" href="#sec-projects">
+        <div class="wi-num">06</div>
+        <div class="wi-title">More Projects</div>
+        <div class="wi-desc">A wider sample of the work</div>
       </a>
       <a class="wi-card" href="#sec-faq">
         <div class="wi-num">FAQ</div>
@@ -525,6 +583,9 @@ body{background:var(--bg);min-height:100vh}
       <div class="cs-section-label">The Result</div>
       <div class="cs-section-body">On December 15, 2025, the NY State Gaming Commission awarded Resorts World NYC one of only three downstate commercial gaming licenses. Talex Media's content supported one of the most consequential licensing decisions in NYC's recent history.</div>
     </div>
+    <div class="cs-video-embed">
+      <iframe src="https://player.vimeo.com/video/1197837461?h=b1f296a8c1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" allowfullscreen loading="lazy" title="Resorts World NYC · Featured Video"></iframe>
+    </div>
     <div class="cs-footer-meta">NYC Gaming License Awarded Dec 15, 2025 · 10+ Videos Produced · $5.5B Investment · Spring 2026 Opening</div>
   </div>
 
@@ -556,6 +617,9 @@ body{background:var(--bg);min-height:100vh}
     <div class="cs-section">
       <div class="cs-section-label">The Result</div>
       <div class="cs-section-body">Since the partnership began, Sobo & Sobo has grown from a NY-focused firm into a multi-state legal practice with offices in NY, CT, NJ, IL, OH, PA, and WI. Talex Media's campaigns have accompanied every stage of that expansion.</div>
+    </div>
+    <div class="cs-video-embed">
+      <iframe src="https://player.vimeo.com/video/1197837545?h=26cd419847" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" allowfullscreen loading="lazy" title="Sobo &amp; Sobo · Featured Video"></iframe>
     </div>
     <div class="cs-footer-meta">5+ Year Partnership · All Commercial Campaigns · 7 States: NY, CT, NJ, IL, OH, PA, WI</div>
   </div>
@@ -589,7 +653,203 @@ body{background:var(--bg);min-height:100vh}
       <div class="cs-section-label">The Result</div>
       <div class="cs-section-body">In August 2025, Elizabeth Seton Children's broke ground on their new 96-bed young adult center in White Plains, NY, the first standalone facility of its kind in the United States, providing care for young adults aged 18 to 35 with complex medical needs. The facility is expected to open in January 2028.</div>
     </div>
+    <div class="cs-video-embed">
+      <iframe src="https://player.vimeo.com/video/1197837295?h=1a1b3c715b" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" allowfullscreen loading="lazy" title="Elizabeth Seton Children's · Featured Video"></iframe>
+    </div>
     <div class="cs-footer-meta">First standalone young adult complex-care facility in the U.S. · 96 beds · $156M · Groundbreaking Aug 2025</div>
+  </div>
+
+  <hr class="rule-orange"/>
+
+  <!-- Section 05, Television (ported from the Our Work page) -->
+  <div class="section-intro" id="sec-tv">
+    <div class="section-intro-row">
+      <span class="sec-pill-dark">05</span>
+      <span class="section-eyebrow">Broadcast Track Record</span>
+    </div>
+    <h2 class="section-title">A Career In Broadcast</h2>
+    <p class="section-subtitle">Hundreds of hours of nationally and globally distributed programming, before Talex.</p>
+  </div>
+
+  <p class="tv-intro-quote">Hundreds of hours of nationally and globally distributed programming for major broadcasters, leading multi-million-dollar productions in environments from the Arctic Circle to sub-Saharan Africa.</p>
+
+  <div class="tv-network-strip">
+    <div class="tv-network">
+      <img class="tv-network-logo bbc" src="https://upload.wikimedia.org/wikipedia/commons/4/41/BBC_Logo_2021.svg" alt="BBC"/>
+      <div class="tv-network-sub">British Broadcasting</div>
+    </div>
+    <div class="tv-network">
+      <img class="tv-network-logo nbc" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/NBCUniversal_Logo.svg" alt="NBCUniversal"/>
+      <div class="tv-network-sub">Network &amp; Cable</div>
+    </div>
+    <div class="tv-network">
+      <img class="tv-network-logo discovery" src="https://upload.wikimedia.org/wikipedia/commons/2/27/Discovery_Channel_-_Logo_2019.svg" alt="Discovery"/>
+      <div class="tv-network-sub">Documentary &amp; Lifestyle</div>
+    </div>
+  </div>
+
+  <div class="tv-feature-grid">
+
+    <div class="tv-feature">
+      <div class="tv-feature-show">Her Big Idea</div>
+      <div class="tv-feature-sub">NYC TV · Featuring Sharon Rowe, Founder, CEO &amp; Author</div>
+      <div class="tv-feature-video">
+        <iframe src="https://player.vimeo.com/video/1197837334?h=8d3404aebf" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" allowfullscreen loading="lazy" title="Her Big Idea · NYC TV · Sharon Rowe"></iframe>
+      </div>
+      <div class="tv-feature-role">Director of Photography</div>
+    </div>
+
+    <div class="tv-feature">
+      <div class="tv-feature-show">House Hunters International</div>
+      <div class="tv-feature-sub">HGTV · Promotional spot</div>
+      <div class="tv-feature-video">
+        <iframe src="https://player.vimeo.com/video/1197838029?h=03010d1996" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" allowfullscreen loading="lazy" title="House Hunters International · HGTV · Promo"></iframe>
+      </div>
+      <div class="tv-feature-role">Producer &amp; Director</div>
+    </div>
+
+    <div class="tv-feature">
+      <div class="tv-feature-show">Railroad Alaska</div>
+      <div class="tv-feature-sub">Destination America · Howitzer cannon avalanche control</div>
+      <div class="tv-feature-video">
+        <iframe src="https://player.vimeo.com/video/1197837651?h=88023320ff" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" allowfullscreen loading="lazy" title="Railroad Alaska · Destination America"></iframe>
+      </div>
+      <div class="tv-feature-role">Showrunner</div>
+    </div>
+
+    <div class="tv-feature">
+      <div class="tv-feature-show">Coast Guard Alaska</div>
+      <div class="tv-feature-sub">The Weather Channel</div>
+      <div class="tv-feature-video">
+        <iframe src="https://player.vimeo.com/video/1197837314?h=bd55b65e74" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" allowfullscreen loading="lazy" title="Coast Guard Alaska · The Weather Channel"></iframe>
+      </div>
+      <div class="tv-feature-role">Series Producer</div>
+    </div>
+
+  </div>
+
+  <div class="tv-credits-box">
+    <div class="tv-credits-eyebrow">Selected Credits</div>
+
+    <div class="tv-credit-row">
+      <div class="tv-credit-main">
+        <div class="tv-credit-title">Coast Guard Alaska</div>
+        <div class="tv-credit-role">Series Producer · The Weather Channel</div>
+      </div>
+      <span class="tv-credit-accolade">Award Winning Series</span>
+    </div>
+
+    <div class="tv-credit-row">
+      <div class="tv-credit-main">
+        <div class="tv-credit-title">Her Big Idea</div>
+        <div class="tv-credit-role">Director of Photography · NYC TV</div>
+      </div>
+      <span class="tv-credit-accolade">2x Emmy Award Nominee</span>
+    </div>
+
+    <div class="tv-credit-row">
+      <div class="tv-credit-main">
+        <div class="tv-credit-title">Made</div>
+        <div class="tv-credit-role">Show Producer</div>
+      </div>
+      <span class="tv-credit-accolade">Emmy-winning · Seasons 8 &amp; 9</span>
+    </div>
+
+    <div class="tv-credit-row">
+      <div class="tv-credit-main">
+        <div class="tv-credit-title">Railroad Alaska</div>
+        <div class="tv-credit-role">Showrunner · Destination America</div>
+      </div>
+    </div>
+
+    <div class="tv-credit-row">
+      <div class="tv-credit-main">
+        <div class="tv-credit-title">House Hunters International</div>
+        <div class="tv-credit-role">Producer &amp; Director · HGTV</div>
+      </div>
+    </div>
+
+    <a class="tv-credits-imdb" href="https://www.imdb.com/name/nm5209355/" target="_blank" rel="noopener">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg" alt="IMDb"/>
+      <span>View Full Profile</span>
+      <span class="tv-credits-imdb-arrow">→</span>
+    </a>
+  </div>
+
+  <hr class="rule-orange"/>
+
+  <!-- Section 06, More Projects (ported from the Our Work page) -->
+  <div class="section-intro" id="sec-projects">
+    <div class="section-intro-row">
+      <span class="sec-pill-dark">06</span>
+      <span class="section-eyebrow">Selected Work</span>
+    </div>
+    <h2 class="section-title">More Projects</h2>
+    <p class="section-subtitle">A wider sample of the partnerships, campaigns, and brand films Talex has produced.</p>
+  </div>
+
+  <div class="proj-card">
+    <div class="proj-header">
+      <div class="proj-logo-wrap">
+        <img class="proj-logo" src="https://static.wixstatic.com/media/3c6878_b9c31dcc31514d5dbfcf0b9de7c2d5c0~mv2.png" alt="House Beautiful logo"/>
+      </div>
+      <div class="proj-meta">
+        <div class="proj-label">Episodic Web Content</div>
+        <div class="proj-name">House Beautiful</div>
+      </div>
+    </div>
+    <p class="proj-desc">Talex Media produced episodic digital content for House Beautiful, building short-form pieces designed to live on the brand's web and social channels with the production polish of a network show. Each episode pairs editorial credibility with story-first pacing, the same standard Tom brought from his broadcast career.</p>
+    <div class="proj-video-embed">
+      <iframe src="https://player.vimeo.com/video/1197837690?h=3fc6a4670c" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" allowfullscreen loading="lazy" title="House Beautiful · Featured Video"></iframe>
+    </div>
+  </div>
+
+  <div class="proj-card">
+    <div class="proj-header">
+      <div class="proj-logo-wrap">
+        <img class="proj-logo" src="https://static.wixstatic.com/media/3c6878_e42da5f67dbf440b9b6dad271201ec84~mv2.png" alt="Ronald McDonald House logo"/>
+      </div>
+      <div class="proj-meta">
+        <div class="proj-label">Fundraising Content</div>
+        <div class="proj-name">Ronald McDonald House</div>
+      </div>
+    </div>
+    <p class="proj-desc">Talex Media produced fundraising-focused video content for Ronald McDonald House, telling the family stories behind the mission and giving donors a genuine human connection to the work. The pieces were built to support events, campaigns, and ongoing donor cultivation.</p>
+    <div class="proj-video-embed">
+      <iframe src="https://player.vimeo.com/video/1197837715?h=d3073d462f" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" allowfullscreen loading="lazy" title="Ronald McDonald House · Featured Video"></iframe>
+    </div>
+  </div>
+
+  <div class="proj-card">
+    <div class="proj-header">
+      <div class="proj-logo-wrap">
+        <img class="proj-logo" src="https://static.wixstatic.com/media/3c6878_142b70b003a34517904651ef273a820a~mv2.png" alt="Independent Helicopters logo"/>
+      </div>
+      <div class="proj-meta">
+        <div class="proj-label">Narrative Marketing Film</div>
+        <div class="proj-name">Independent Helicopters</div>
+      </div>
+    </div>
+    <p class="proj-desc">Talex Media produced a narrative marketing film for Independent Helicopters, founded and led by Heather Howley. The piece was built around the founder's story and the operation's identity, framing the company as a genuine character in its market rather than a service buyer.</p>
+    <div class="proj-video-embed">
+      <iframe src="https://player.vimeo.com/video/1197837736?h=bca14e5eb6" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" allowfullscreen loading="lazy" title="Independent Helicopters · Featured Video"></iframe>
+    </div>
+  </div>
+
+  <div class="proj-card">
+    <div class="proj-header">
+      <div class="proj-logo-wrap">
+        <img class="proj-logo" src="https://www.datocms-assets.com/166635/1757514962-logo-mid_hudson_valley_fcu.svg" alt="Mid-Hudson Valley Federal Credit Union logo" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'proj-logo-fallback',textContent:'Mid-Hudson Valley FCU'}))"/>
+      </div>
+      <div class="proj-meta">
+        <div class="proj-label">Broadcast Commercial</div>
+        <div class="proj-name">Mid-Hudson Valley FCU</div>
+      </div>
+    </div>
+    <p class="proj-desc">Talex Media produced a broadcast commercial for Mid-Hudson Valley Federal Credit Union, a regional credit union serving the Hudson Valley. The piece was built to anchor the credit union's brand presence in the local market and support a specific branch campaign.</p>
+    <div class="proj-video-embed">
+      <iframe src="https://player.vimeo.com/video/1197837773?h=1a21fe0c33" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" allowfullscreen loading="lazy" title="Mid-Hudson Valley FCU · Featured Video"></iframe>
+    </div>
   </div>
 
   <!-- LOCKED — credentials row. Do not edit. -->
